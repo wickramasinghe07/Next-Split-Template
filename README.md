@@ -1,4 +1,4 @@
-Next-Split-Template
+##Next-Split-Template
 
 This is an opinionated Next.js template bootstrapped with create-next-app.
 
