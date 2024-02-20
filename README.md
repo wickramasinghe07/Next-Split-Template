@@ -1,5 +1,5 @@
-# Next-Split-Template
-NextJS split template
+Next-Split-Template
+
 This is an opinionated Next.js template bootstrapped with create-next-app.
 
 This tries to maintain a separation between API and Client side UI, which is not the intended use of NextJS 14.
@@ -12,10 +12,12 @@ Drizzle ORM
 TailwindCSS
 React Aria
 Lucia Auth
+
 Other libraries used
 Zod
 
 Getting Started
+
 Have docker (or podman + docker support) installed.
 Have NodeJS 20 or higher even number installed. (You can use Volta or NVM to manage multiple NodeJS versions.)
 Create a copy of the file .env.example, rename it to .env and change values if needed.
@@ -24,12 +26,16 @@ Have pnpm installed (this is faster than npm): npm i -g pnpm.
 Run pnpm install to install dependencies.
 Run pnpm dev to start the development server.
 Open http://localhost:3000 with your browser to see the result.
+
 Running database migrations
+
 Use pnpm drizzle-kit studio to view database content in browser. Or use a tool like HeidiSQL or DBeaver.
 When you are in development mode and trying out things locally, use pnpm drizzle-kit push:pg to update the db according to your schemas at any time. Never use this in production.
 Before committing, run pnpm drizzle-kit generate:pg to generate migration scripts.
 Run pnpm tsx migrate-db.ts in production/staging to run database migrations.
+
 Conventions
+
 Write TypeScript.
 Use app/api for (json) API routes.
 Keep core logic/views inside modules folder organized by feature. Core logic shouldn't depend on NextJS-specific APIs. Use your best judgement.
@@ -43,7 +49,9 @@ e.g., Page to show orders by a user
 example url: users/123/orders
 route handler: app/users/[id]/orders/page.tsx
 Change the theme in tailwind.config.ts according to your design system and use them consistently and try to avoid arbitrary values
+
 Learn More
+
 To learn more about Next.js, take a look at the following resources:
 
 Next.js Documentation - learn about Next.js features and API.
