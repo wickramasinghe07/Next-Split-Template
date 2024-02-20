@@ -56,6 +56,23 @@ To learn more about Next.js, take a look at the following resources:
 
 Next.js Documentation - learn about Next.js features and API.
 Learn Next.js - an interactive Next.js tutorial.
-Other:
 
-Writing commit messages
+## Getting Started
+
+1. Have docker (or podman + docker support) installed.
+2. Have NodeJS 20 or higher _even number_ installed. (You can use
+   [Volta](https://volta.sh/) or [NVM](https://github.com/nvm-sh/nvm) to manage
+   multiple NodeJS versions.)
+3. Create a copy of the file `.env.example`, rename it to `.env` and change
+   values if needed.
+4. Run `docker compose up` in project root directory (or alternative) to start a
+   postgresql server.
+5. Have pnpm installed (this is faster than npm): `npm i -g pnpm`.
+6. Run `pnpm install` to install dependencies.
+7. Run `pnpm dev` to start the development server.
+8. Open [http://localhost:3000](http://localhost:3000) with your browser to see
+   the result.
+
+   
+
+
