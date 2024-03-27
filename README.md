@@ -92,7 +92,8 @@ Installing Tailwind CSS
 Font size and styling:
 Increase a font size of an element in tailwind is set much like the colors. By using the text and then adding the desired size which ranges from xs to 9xl with xs being extra small which is 14px or 0.875rem and 9xl being the biggest size the text can go which is about 8rem or 128px. Changing the font style is very similar to changing the font size. We start with the font and add your desired style. Example, font-bold, font-serif, font-semibold etc.
 
-Padding and margin: Tailwind CSS has a design system that would help you keep a consistent scale across your designs. All you have to know is the syntax for applying each utility. The utilities for adding padding are:
+## Padding and margin: 
+Tailwind CSS has a design system that would help you keep a consistent scale across your designs. All you have to know is the syntax for applying each utility. The utilities for adding padding are:
 
       · p — which denotes padding across the whole element
 
