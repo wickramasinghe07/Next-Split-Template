@@ -143,4 +143,4 @@ In Tailwind CSS, responsive classes allow you to apply styles based on the scree
 
       · xl– min-width 1280px
 
-· 2xl — min-width 1536px
+      · 2xl — min-width 1536px
