@@ -133,7 +133,7 @@ To use flex in Tailwind CSS you just need to add a class of flex and the then th
 Grid:
 Much like flexbox, you need to use the grid class and the desired grid direction. The layout can be customized by using the different grid utility classes provided by Tailwind CSS.
 
-Responsive design: 
+## Responsive design: 
 In Tailwind CSS, responsive classes allow you to apply styles based on the screen size or viewport width. Tailwind uses a mobile-first approach, meaning styles are applied by default and can be overridden at larger screen sizes. Responsive classes are added using a specific syntax which are:
 
       · sm — min-width 640px
