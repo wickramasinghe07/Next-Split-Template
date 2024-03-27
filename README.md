@@ -80,6 +80,67 @@ Other:
 
       - [Writing commit messages](https://cbea.ms/git-commit/)
 
-   
+## Introduction to tailwind CSS 
 
+Tailwind CSS is a utility-first CSS framework that provides a set of pre-built utility classes to help quickly build modern and responsive web interfaces. Unlike traditional CSS frameworks that come with pre-designed components, Tailwind focuses on providing low-level utility classes that enable the creation of custom designs without leaving your HTML or in our case JSX.
 
+Installing Tailwind CSS
+
+            npm install -D tailwindcss postcss autoprefixer
+            npx tailwindcss init -p
+
+Font size and styling:
+Increase a font size of an element in tailwind is set much like the colors. By using the text and then adding the desired size which ranges from xs to 9xl with xs being extra small which is 14px or 0.875rem and 9xl being the biggest size the text can go which is about 8rem or 128px. Changing the font style is very similar to changing the font size. We start with the font and add your desired style. Example, font-bold, font-serif, font-semibold etc.
+
+Padding and margin: Tailwind CSS has a design system that would help you keep a consistent scale across your designs. All you have to know is the syntax for applying each utility. The utilities for adding padding are:
+
+      · p — which denotes padding across the whole element
+
+      · pb — which denotes padding-bottom
+
+      · pl — which denotes padding-left
+
+      · pr — which denotes padding-right
+
+      · pt — which denotes padding-top
+
+      · py — which denotes padding on the top and bottom
+
+      · px — which denotes padding on left and right.
+
+## The utilities for margin the same just replace the p in padding with m for margin they are:
+
+      · m — which denotes margin on all sides of the element
+
+      · mb — which denotes margin-bottom
+
+      · ml — which denotes margin-left
+
+      · mr — denotes margin-right
+
+      · mt — denotes margin-top
+
+      · mx — denotes margin on the left and right
+
+      · my — denotes margin on the top and bottom.
+
+To apply them though, you’d have to use the appropriate numbers provided by Tailwind CSS. These numbers range from 0 to 96 with zero as 0px and 96 as 384px or 24rem.
+
+Flex:
+To use flex in Tailwind CSS you just need to add a class of flex and the then the desired flex direction. You can customize the layout by using different Flexbox utility classes provided by Tailwind CSS. For example, justify-between, items-center, flex-col, etc.
+
+Grid:
+Much like flexbox, you need to use the grid class and the desired grid direction. The layout can be customized by using the different grid utility classes provided by Tailwind CSS.
+
+Responsive design: 
+In Tailwind CSS, responsive classes allow you to apply styles based on the screen size or viewport width. Tailwind uses a mobile-first approach, meaning styles are applied by default and can be overridden at larger screen sizes. Responsive classes are added using a specific syntax which are:
+
+      · sm — min-width 640px
+
+      · md — min-width 768px
+
+      · lg — min-width 1024px
+
+      · xl– min-width 1280px
+
+· 2xl — min-width 1536px
